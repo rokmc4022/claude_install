@@ -1,4 +1,6 @@
 #!/bin/bash
+export DEBIAN_FRONTEND=noninteractive
+export NEEDRESTART_MODE=a
 
 # Claude Code 설치 스크립트 for Ubuntu
 # 사용법: curl -fsSL https://your-domain.com/install-claude-code.sh | bash
